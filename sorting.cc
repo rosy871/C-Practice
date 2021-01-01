@@ -56,6 +56,7 @@ int main()
 		charVect.push_back(c);
 
 	}
+	cout<<endl<<"This is for char";
 	for(auto i:charVect)
 		cout<<i<<"  ";
 	sortVect<char>(charVect);
